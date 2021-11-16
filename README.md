@@ -6,7 +6,7 @@ A CLI accessible search engine for the CVE database hosted by [MITRE](https://cv
 
 ## Features
 
-- *Minimal and Lightweight* - Uses pre-existing unix cli tooling, like bash, and awk.
+- *Minimal and Lightweight* - Uses pre-existing unix cli tooling, like bash, awk, and grep.
 - *No hard-coded data* - The `cve.sh` script takes care of fetching the latest copy of the database.
 
 ## Installation
