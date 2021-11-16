@@ -36,6 +36,12 @@ file.
 ```
 awk -f ./cve.awk ./cve_data.csv
 ```
+
+We can also use `grep` to filter through the output for example using grep to search for a specific CVE ID.
+
+```
+awk -f ./cve.awk ./cve_data.csv | grep <CVE-1234>
+```
 _More examples and documentation to come...._
 
 ## License
